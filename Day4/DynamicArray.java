@@ -1,6 +1,5 @@
 package Day4;
 import java.util.*;
-
 public class DynamicArray {
     public static List<Integer> dynamicArray(int n, List<String> queries) {
         List<List<Integer>> arr = new ArrayList<>();
