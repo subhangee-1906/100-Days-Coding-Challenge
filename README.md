@@ -1,12 +1,15 @@
 100 Days of Code Challenge 🚀
+
 Welcome to my 100 Days of Code journey! This repository documents my progress as I commit to coding every day for 100 days, with the goal of improving my programming skills and tackling various projects, algorithms, and challenges.
 
 🎯 Challenge Overview
+
 The 100 Days of Code challenge is a self-improvement project aimed at building a consistent coding habit. The rules are simple:
 
 Code for at least 1 hour every day for 100 consecutive days.
 Document the journey through daily updates.
 Share your progress on social media for accountability.
+
 📝 Daily Progress
 Day	Date	Challenge/Project	Description
 Day 1	2024-10-08	Reversing the array
@@ -54,5 +57,7 @@ Motivate and keep me accountable by following my journey on social media.
 
 💬 Let's Connect!
 LinkedIn:https://www.linkedin.com/in/subhangee-sahoo-7590b1225/
+
 GitHub:https://github.com/subhangee-1906
+
 Twitter: https://x.com/Subhangee_1906
