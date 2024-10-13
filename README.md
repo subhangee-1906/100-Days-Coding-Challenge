@@ -44,6 +44,7 @@ Build real-world projects and contribute to open source.
 Establish a consistent habit of coding daily.
 
 📊 Progress Tracking
+
 LinkedIn - Daily posts on my progress.
 GitHub - Code for each day will be uploaded to this repository.
 Twitter - Regular updates and achievements.
@@ -56,6 +57,7 @@ Provide feedback on my code.
 Motivate and keep me accountable by following my journey on social media.
 
 💬 Let's Connect!
+
 LinkedIn:https://www.linkedin.com/in/subhangee-sahoo-7590b1225/
 
 GitHub:https://github.com/subhangee-1906
