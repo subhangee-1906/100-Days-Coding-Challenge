@@ -1,11 +1,6 @@
 package Day9;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-
 public class Solution {
 
 
@@ -24,5 +19,6 @@ public class Solution {
         int sum;
         sum = solveMeFirst(a, b);
         System.out.println(sum);
+        in.close();
    }
 }
