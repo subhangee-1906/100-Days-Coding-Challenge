@@ -1,26 +1,33 @@
 package Day12;
 
 import java.io.*;
+import static java.util.stream.Collectors.toList;
 
 class Result {
 
     /*
-     * Complete the 'staircase' function below.
+     * Complete the 'miniMaxSum' function below.
      *
-     * The function accepts INTEGER n as parameter.
+     * The function accepts INTEGER_ARRAY arr as parameter.
      */
 
-    public static void staircase(int n) {
+    public static void miniMaxSum(List<Integer> arr) {
     // Write your code here
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n - i; j++) {
-                System.out.print(" ");
+        long totalSum = 0;
+        int minElement = Integer.MAX_VALUE;
+        int maxElement = Integer.MIN_VALUE;
+        for (int num : arr) {
+            totalSum += num;
+            if (num < minElement) {
+                minElement = num;
             }
-            for (int k = 1; k <= i; k++) {
-                System.out.print("#");
+            if (num > maxElement) {
+                maxElement = num;
             }
-            System.out.println();
         }
+        long minSum = totalSum - maxElement;
+        long maxSum = totalSum - minElement;
+        System.out.println(minSum + " " + maxSum);
     }
 
 }
@@ -29,10 +36,13 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-        int n = Integer.parseInt(bufferedReader.readLine().trim());
+        List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+            .map(Integer::parseInt)
+            .collect(toList());
 
-        Result.staircase(n);
+        Result.miniMaxSum(arr);
 
         bufferedReader.close();
     }
 }
+
