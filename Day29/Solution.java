@@ -1,5 +1,3 @@
-package Day29;
-
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -31,7 +29,7 @@ class Result {
         }
     }
 
-    // If the set contains all 26 letters, return "pangram"; otherwise, "not pangram"
+    
     return letters.size() == 26 ? "pangram" : "not pangram";
 }
 
@@ -52,4 +50,3 @@ public class Solution {
         bufferedWriter.close();
     }
 }
-
