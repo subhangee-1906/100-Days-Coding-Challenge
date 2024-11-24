@@ -1,5 +1,4 @@
 package Day36;
-
 class Solution_ {
     public int strStr(String haystack, String needle) {
         if (needle.isEmpty()) {
